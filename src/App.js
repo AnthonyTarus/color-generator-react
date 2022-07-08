@@ -6,7 +6,7 @@ import Values from "values.js";
 function App() {
   const [color, setColor] = useState("");
   const [error, setError] = useState(false);
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(new Values("#704242").all(10));
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -28,7 +28,7 @@ function App() {
             type="text"
             value={color}
             onChange={(e) => setColor(e.target.value)}
-            placeholder="#ddd"
+            placeholder="#704242"
             //add class of error of error is true
             className={`${error ? "error" : null}`}
           />
