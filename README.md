@@ -1,6 +1,6 @@
 ## Color Generator Site
 
-[Live Demo](https://react-color-generatorr.netlify.app/).
+[Live Demo](https://color-generator-react-ecru.vercel.app/).
 
 ### Details
 
